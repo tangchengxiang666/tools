@@ -3,7 +3,7 @@ package standalone
 import (
 	"context"
 
-	"github.com/openimsdk/tools/discovery"
+	"github.com/tangchengxiang666/tools/discovery"
 	"google.golang.org/grpc"
 )
 

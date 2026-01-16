@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openimsdk/tools/stability/ratelimit"
+	"github.com/tangchengxiang666/tools/stability/ratelimit"
 )
 
 // mockCPU is used for testing; allows controlling CPU usage

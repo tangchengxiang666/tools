@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/openimsdk/tools/discovery"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/utils/datautil"
+	"github.com/tangchengxiang666/tools/discovery"
+	"github.com/tangchengxiang666/tools/errs"
+	"github.com/tangchengxiang666/tools/log"
+	"github.com/tangchengxiang666/tools/utils/datautil"
 	"go.etcd.io/etcd/api/v3/mvccpb"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.etcd.io/etcd/client/v3/naming/endpoints"
@@ -858,7 +858,7 @@ func (r *SvcDiscoveryRegistryImpl) GetClient() *clientv3.Client {
 }
 
 func (r *SvcDiscoveryRegistryImpl) checkOpts(opts ...grpc.DialOption) error {
-    return nil
+	return nil
 }
 
 func (r *SvcDiscoveryRegistryImpl) resetConnMap() {

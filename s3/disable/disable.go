@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/openimsdk/tools/s3"
+	"github.com/tangchengxiang666/tools/s3"
 )
 
 var errDisabled = errors.New("s3 disabled")

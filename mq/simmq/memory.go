@@ -6,7 +6,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/openimsdk/tools/mq"
+	"github.com/tangchengxiang666/tools/mq"
 )
 
 var (

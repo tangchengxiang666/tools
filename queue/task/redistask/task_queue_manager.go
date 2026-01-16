@@ -19,8 +19,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/openimsdk/tools/queue/task"
 	"github.com/redis/go-redis/v9"
+	"github.com/tangchengxiang666/tools/queue/task"
 )
 
 type QueueManager[T any, K comparable] struct {

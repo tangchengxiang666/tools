@@ -2,7 +2,7 @@ package etcd
 
 import (
 	"context"
-	"github.com/openimsdk/tools/discovery"
+	"github.com/tangchengxiang666/tools/discovery"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"net"

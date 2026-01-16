@@ -9,9 +9,9 @@ import (
 	"sync"
 
 	"github.com/IBM/sarama"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/mcontext"
-	"github.com/openimsdk/tools/mq"
+	"github.com/tangchengxiang666/tools/log"
+	"github.com/tangchengxiang666/tools/mcontext"
+	"github.com/tangchengxiang666/tools/mq"
 )
 
 func NewMConsumerGroupV2(ctx context.Context, conf *Config, groupID string, topics []string, autoCommitEnable bool) (mq.Consumer, error) {

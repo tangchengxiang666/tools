@@ -16,12 +16,12 @@ import (
 	"unsafe"
 
 	"github.com/minio/minio-go/v7"
-	"github.com/openimsdk/tools/s3"
+	"github.com/tangchengxiang666/tools/s3"
 
 	"github.com/minio/minio-go/v7/pkg/credentials"
 	"github.com/minio/minio-go/v7/pkg/signer"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
+	"github.com/tangchengxiang666/tools/errs"
+	"github.com/tangchengxiang666/tools/log"
 )
 
 const (

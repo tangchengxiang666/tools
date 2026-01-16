@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/openimsdk/tools/discovery"
+	"github.com/tangchengxiang666/tools/discovery"
 )
 
 type keyValue struct {

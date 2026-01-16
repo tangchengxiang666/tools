@@ -17,7 +17,7 @@ package field
 import (
 	"os"
 
-	"github.com/openimsdk/tools/errs"
+	"github.com/tangchengxiang666/tools/errs"
 )
 
 // LinkTreatment is the base type for constants used by Exists that indicate

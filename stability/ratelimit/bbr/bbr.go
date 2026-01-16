@@ -5,9 +5,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/openimsdk/tools/stability/internal/cpu"
-	"github.com/openimsdk/tools/stability/internal/window"
-	"github.com/openimsdk/tools/stability/ratelimit"
+	"github.com/tangchengxiang666/tools/stability/internal/cpu"
+	"github.com/tangchengxiang666/tools/stability/internal/window"
+	"github.com/tangchengxiang666/tools/stability/ratelimit"
 )
 
 var (

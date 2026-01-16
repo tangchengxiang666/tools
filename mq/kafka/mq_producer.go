@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/IBM/sarama"
-	"github.com/openimsdk/tools/mq"
+	"github.com/tangchengxiang666/tools/mq"
 )
 
 func NewKafkaProducerV2(config *Config, addr []string, topic string) (mq.Producer, error) {

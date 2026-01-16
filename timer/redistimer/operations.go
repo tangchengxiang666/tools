@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
 	"github.com/redis/go-redis/v9"
+	"github.com/tangchengxiang666/tools/errs"
+	"github.com/tangchengxiang666/tools/log"
 )
 
 // Register adds an item with a timeout duration for a specific type

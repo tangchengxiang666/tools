@@ -15,10 +15,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openimsdk/tools/s3"
+	"github.com/tangchengxiang666/tools/s3"
 	"github.com/tencentyun/cos-go-sdk-v5"
 
-	"github.com/openimsdk/tools/errs"
+	"github.com/tangchengxiang666/tools/errs"
 )
 
 const (

@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/openimsdk/tools/discovery"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/utils/datautil"
 	"github.com/sercand/kuberesolver/v6"
+	"github.com/tangchengxiang666/tools/discovery"
+	"github.com/tangchengxiang666/tools/errs"
+	"github.com/tangchengxiang666/tools/log"
+	"github.com/tangchengxiang666/tools/utils/datautil"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	v1 "k8s.io/api/core/v1"
@@ -335,7 +335,7 @@ func (k *ConnManager) handleEndpointChange(obj interface{}) {
 }
 
 func (k *ConnManager) checkOpts(opts ...grpc.DialOption) error {
-    return nil
+	return nil
 }
 
 func (k *ConnManager) SetKey(ctx context.Context, key string, data []byte) error {

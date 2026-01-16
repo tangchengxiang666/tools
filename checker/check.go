@@ -1,6 +1,6 @@
 package checker
 
-import "github.com/openimsdk/tools/errs"
+import "github.com/tangchengxiang666/tools/errs"
 
 type Checker interface {
 	Check() error

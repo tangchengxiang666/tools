@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/openimsdk/tools/stability/circuitbreaker"
-	"github.com/openimsdk/tools/stability/internal/window"
+	"github.com/tangchengxiang666/tools/stability/circuitbreaker"
+	"github.com/tangchengxiang666/tools/stability/internal/window"
 )
 
 // Option is sre breaker option function.

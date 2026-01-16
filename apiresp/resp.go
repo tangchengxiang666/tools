@@ -5,8 +5,8 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/utils/jsonutil"
+	"github.com/tangchengxiang666/tools/errs"
+	"github.com/tangchengxiang666/tools/utils/jsonutil"
 )
 
 type ApiResponse struct {

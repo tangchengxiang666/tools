@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/openimsdk/tools/db/redisutil"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/timer"
 	"github.com/redis/go-redis/v9"
+	"github.com/tangchengxiang666/tools/db/redisutil"
+	"github.com/tangchengxiang666/tools/errs"
+	"github.com/tangchengxiang666/tools/log"
+	"github.com/tangchengxiang666/tools/timer"
 )
 
 // RedisTimer implements timer.Manager using Redis

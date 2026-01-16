@@ -4,10 +4,10 @@ import (
 	"context"
 	"crypto/tls"
 
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/mw/specialerror"
-	"github.com/openimsdk/tools/xtls"
 	"github.com/redis/go-redis/v9"
+	"github.com/tangchengxiang666/tools/errs"
+	"github.com/tangchengxiang666/tools/mw/specialerror"
+	"github.com/tangchengxiang666/tools/xtls"
 )
 
 func init() {

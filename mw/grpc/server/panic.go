@@ -3,8 +3,8 @@ package server
 import (
 	"context"
 
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
+	"github.com/tangchengxiang666/tools/errs"
+	"github.com/tangchengxiang666/tools/log"
 	"google.golang.org/grpc"
 )
 

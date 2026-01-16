@@ -10,11 +10,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openimsdk/tools/s3"
+	"github.com/tangchengxiang666/tools/s3"
 
 	"github.com/google/uuid"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
+	"github.com/tangchengxiang666/tools/errs"
+	"github.com/tangchengxiang666/tools/log"
 )
 
 func New(cache S3Cache, impl s3.Interface) *Controller {
@@ -71,9 +71,8 @@ func (c *Controller) GetHashObject(ctx context.Context, hash string) (*s3.Object
 }
 
 func (c *Controller) InitiateUpload(ctx context.Context, hash string, size int64, expire time.Duration, maxParts int) (*InitiateUploadResult, error) {
-    return c.InitiateUploadContentType(ctx, hash, size, expire, maxParts, "")
+	return c.InitiateUploadContentType(ctx, hash, size, expire, maxParts, "")
 }
-
 
 func (c *Controller) InitiateUploadContentType(ctx context.Context, hash string, size int64, expire time.Duration, maxParts int, contentType string) (*InitiateUploadResult, error) {
 	defer log.ZDebug(ctx, "return")

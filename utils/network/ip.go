@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	_ "github.com/openimsdk/tools/errs"
+	_ "github.com/tangchengxiang666/tools/errs"
 )
 
 // Define http headers.

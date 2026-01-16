@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/errs"
+	"github.com/tangchengxiang666/tools/errs"
 )
 
 var mapper = []string{constant.OperationID, constant.OpUserID, constant.OpUserPlatform, constant.ConnID}

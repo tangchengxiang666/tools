@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/go-zookeeper/zk"
-	"github.com/openimsdk/tools/errs"
+	"github.com/tangchengxiang666/tools/errs"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/resolver"
 )

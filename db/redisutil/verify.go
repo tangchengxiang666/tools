@@ -3,7 +3,7 @@ package redisutil
 import (
 	"context"
 
-	"github.com/openimsdk/tools/errs"
+	"github.com/tangchengxiang666/tools/errs"
 )
 
 // CheckRedis checks the Redis connection.

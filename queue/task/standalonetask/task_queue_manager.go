@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/openimsdk/tools/queue/bound"
-	"github.com/openimsdk/tools/queue/task"
+	"github.com/tangchengxiang666/tools/queue/bound"
+	"github.com/tangchengxiang666/tools/queue/task"
 )
 
 // Queue will pop data from its waiting Queue. If it`s empty, it will pop data from global Queue(in QueueManager),

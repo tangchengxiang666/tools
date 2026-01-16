@@ -17,7 +17,7 @@ package config
 import (
 	"os"
 
-	"github.com/openimsdk/tools/errs"
+	"github.com/tangchengxiang666/tools/errs"
 )
 
 // ConfigSource configuring source interfaces.

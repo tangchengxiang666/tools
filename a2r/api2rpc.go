@@ -5,13 +5,13 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/openimsdk/tools/checker"
+	"github.com/tangchengxiang666/tools/checker"
 
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
-	"github.com/openimsdk/tools/apiresp"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/utils/jsonutil"
+	"github.com/tangchengxiang666/tools/apiresp"
+	"github.com/tangchengxiang666/tools/errs"
+	"github.com/tangchengxiang666/tools/utils/jsonutil"
 	"google.golang.org/grpc"
 )
 

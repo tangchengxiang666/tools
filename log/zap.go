@@ -7,16 +7,16 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/openimsdk/tools/errs"
+	"github.com/tangchengxiang666/tools/errs"
 
-	rotatelogs "github.com/openimsdk/tools/log/file-rotatelogs"
-	"github.com/openimsdk/tools/utils/stringutil"
+	rotatelogs "github.com/tangchengxiang666/tools/log/file-rotatelogs"
+	"github.com/tangchengxiang666/tools/utils/stringutil"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
 	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/mcontext"
+	"github.com/tangchengxiang666/tools/mcontext"
 )
 
 var (

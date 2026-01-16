@@ -4,7 +4,7 @@
 package main
 
 import (
-	"github.com/openimsdk/tools/utils/mageutil"
+	"github.com/tangchengxiang666/tools/utils/mageutil"
 	"os"
 	"strings"
 )

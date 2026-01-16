@@ -3,7 +3,7 @@ package mongoutil
 import (
 	"context"
 
-	"github.com/openimsdk/tools/errs"
+	"github.com/tangchengxiang666/tools/errs"
 )
 
 // CheckMongo tests the MongoDB connection without retries.

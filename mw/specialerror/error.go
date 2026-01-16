@@ -3,7 +3,7 @@ package specialerror
 import (
 	"errors"
 
-	"github.com/openimsdk/tools/errs"
+	"github.com/tangchengxiang666/tools/errs"
 )
 
 var handlers []func(err error) errs.CodeError

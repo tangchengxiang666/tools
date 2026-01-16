@@ -3,8 +3,8 @@ package mongoutil
 import (
 	"context"
 
-	"github.com/openimsdk/tools/db/tx"
-	"github.com/openimsdk/tools/errs"
+	"github.com/tangchengxiang666/tools/db/tx"
+	"github.com/tangchengxiang666/tools/errs"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 )

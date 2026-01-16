@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openimsdk/tools/stability/internal/window"
 	"github.com/stretchr/testify/assert"
+	"github.com/tangchengxiang666/tools/stability/internal/window"
 )
 
 func getBreaker() *sreBreaker {

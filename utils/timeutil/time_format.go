@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/openimsdk/tools/errs"
+	"github.com/tangchengxiang666/tools/errs"
 )
 
 const (

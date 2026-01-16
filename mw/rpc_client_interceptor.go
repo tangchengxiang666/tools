@@ -7,8 +7,8 @@ import (
 
 	"github.com/openimsdk/protocol/constant"
 	"github.com/openimsdk/protocol/errinfo"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
+	"github.com/tangchengxiang666/tools/errs"
+	"github.com/tangchengxiang666/tools/log"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"

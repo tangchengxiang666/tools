@@ -6,7 +6,7 @@ import (
 
 	"github.com/IBM/sarama"
 	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/mcontext"
+	"github.com/tangchengxiang666/tools/mcontext"
 )
 
 var errEmptyMsg = errors.New("kafka binary msg is empty")

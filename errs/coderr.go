@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/openimsdk/tools/errs/stack"
+	"github.com/tangchengxiang666/tools/errs/stack"
 )
 
 const stackSkip = 4

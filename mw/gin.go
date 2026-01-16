@@ -5,13 +5,13 @@ import (
 	"strings"
 
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/tokenverify"
+	"github.com/tangchengxiang666/tools/log"
+	"github.com/tangchengxiang666/tools/tokenverify"
 
 	"github.com/gin-gonic/gin"
 	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/apiresp"
-	"github.com/openimsdk/tools/errs"
+	"github.com/tangchengxiang666/tools/apiresp"
+	"github.com/tangchengxiang666/tools/errs"
 )
 
 // CorsHandler gin cross-domain configuration.

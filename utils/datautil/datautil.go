@@ -8,9 +8,9 @@ import (
 
 	"github.com/jinzhu/copier"
 
-	"github.com/openimsdk/tools/db/pagination"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/utils/jsonutil"
+	"github.com/tangchengxiang666/tools/db/pagination"
+	"github.com/tangchengxiang666/tools/errs"
+	"github.com/tangchengxiang666/tools/utils/jsonutil"
 )
 
 // SliceSubFuncs returns elements in slice a that are not present in slice b (a - b) and remove duplicates.
@@ -466,7 +466,6 @@ func BothExist[E comparable](es ...[]E) []E {
 		return e
 	})
 }
-
 
 // Complete whether a and b are equal after deduplication (ignore order)
 func Complete[E comparable](a []E, b []E) bool {

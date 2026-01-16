@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/go-zookeeper/zk"
-	"github.com/openimsdk/tools/discovery"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
+	"github.com/tangchengxiang666/tools/discovery"
+	"github.com/tangchengxiang666/tools/errs"
+	"github.com/tangchengxiang666/tools/log"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/resolver"
 )

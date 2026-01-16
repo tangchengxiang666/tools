@@ -2,16 +2,16 @@ package api
 
 import (
 	"bytes"
-	"github.com/openimsdk/tools/utils/datautil"
+	"github.com/tangchengxiang666/tools/utils/datautil"
 	"io"
 	"time"
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/apiresp"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
+	"github.com/tangchengxiang666/tools/apiresp"
+	"github.com/tangchengxiang666/tools/errs"
+	"github.com/tangchengxiang666/tools/log"
 )
 
 func GinLogger(skipPath ...string) gin.HandlerFunc {
