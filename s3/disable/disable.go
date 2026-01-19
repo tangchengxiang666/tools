@@ -3,6 +3,7 @@ package disable
 import (
 	"context"
 	"errors"
+	"io"
 	"time"
 
 	"github.com/tangchengxiang666/tools/s3"
@@ -75,4 +76,7 @@ func (disableS3) AccessURL(ctx context.Context, name string, expire time.Duratio
 
 func (disableS3) FormData(ctx context.Context, name string, size int64, contentType string, duration time.Duration) (*s3.FormData, error) {
 	return nil, errDisabled
+}
+func (disableS3) UploadItem(ctx context.Context, rs io.ReadSeeker, originalName string, fileSize int64, contentType string) (string, error) {
+	return "暂未支持", nil
 }

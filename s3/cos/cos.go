@@ -9,6 +9,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"io"
 	"net/http"
 	"net/url"
 	"strconv"
@@ -380,6 +381,9 @@ func (c *Cos) FormData(ctx context.Context, name string, size int64, contentType
 	return fd, nil
 }
 
+func (c *Cos) UploadItem(ctx context.Context, rs io.ReadSeeker, originalName string, fileSize int64, contentType string) (string, error) {
+	return "暂未支持", nil
+}
 func hmacSha1val(key, msg string) string {
 	v := hmac.New(sha1.New, []byte(key))
 	v.Write([]byte(msg))

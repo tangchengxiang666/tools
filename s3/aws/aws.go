@@ -4,6 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"io"
 	"net/http"
 	"net/url"
 	"strconv"
@@ -299,6 +300,10 @@ func (a *Aws) AccessURL(ctx context.Context, name string, expire time.Duration, 
 
 func (a *Aws) FormData(ctx context.Context, name string, size int64, contentType string, duration time.Duration) (*s3.FormData, error) {
 	return nil, errors.New("aws does not currently support form data file uploads")
+}
+
+func (a *Aws) UploadItem(ctx context.Context, rs io.ReadSeeker, originalName string, fileSize int64, contentType string) (string, error) {
+	return "暂未支持", nil
 }
 
 func withDisableHTTPPresignerHeaderV4(opt *s3.AccessURLOption) func(options *aws3.PresignOptions) {

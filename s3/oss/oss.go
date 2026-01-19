@@ -397,3 +397,7 @@ func (o *OSS) FormData(ctx context.Context, name string, size int64, contentType
 	}
 	return fd, nil
 }
+
+func (o *OSS) UploadItem(ctx context.Context, rs io.ReadSeeker, originalName string, fileSize int64, contentType string) (string, error) {
+	return "暂未支持", nil
+}
