@@ -7,6 +7,8 @@ const (
 	// TempPath specifies the directory for temporary files in the 'openim' structure.
 	tempPath = "openim/temp/"
 
+	VideoSnapshotPath = "openim/data/snapshot/"
+
 	// DirectPath indicates the directory for direct uploads or access within the 'openim' structure.
 	DirectPath = "openim/direct"
 

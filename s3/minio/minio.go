@@ -573,10 +573,11 @@ func (m *Minio) deleteThumbnailCache(ctx context.Context, name string, key strin
 	return m.cache.DelImageThumbnailKey(ctx, name, format, width, height)
 }
 
-func (m *Minio) UploadItem(ctx context.Context, rs io.ReadSeeker, originalName string, fileSize int64, contentType string) (string, error) {
+func (m *Minio) UploadItem(ctx context.Context, rs io.ReadSeeker, originalName string, fileDir string, contentType string) (string, error) {
 	// 1. 计算文件 Hash (SHA256)
 	hash := sha256.New()
-	if _, err := io.Copy(hash, rs); err != nil {
+	fileSize, err := io.Copy(hash, rs)
+	if err != nil {
 		return "", err
 	}
 	hashString := hex.EncodeToString(hash.Sum(nil))
@@ -588,10 +589,10 @@ func (m *Minio) UploadItem(ctx context.Context, rs io.ReadSeeker, originalName s
 
 	// 3. 构造文件名
 	ext := filepath.Ext(originalName)
-	newFileName := hashString + ext
+	newFileName := fileDir + hashString + ext
 
 	// 4. 秒传逻辑
-	_, err := m.core.Client.StatObject(ctx, m.bucket, newFileName, minio.StatObjectOptions{})
+	_, err = m.core.Client.StatObject(ctx, m.bucket, newFileName, minio.StatObjectOptions{})
 	if err == nil {
 		return newFileName, nil
 	}

@@ -77,6 +77,6 @@ func (disableS3) AccessURL(ctx context.Context, name string, expire time.Duratio
 func (disableS3) FormData(ctx context.Context, name string, size int64, contentType string, duration time.Duration) (*s3.FormData, error) {
 	return nil, errDisabled
 }
-func (disableS3) UploadItem(ctx context.Context, rs io.ReadSeeker, originalName string, fileSize int64, contentType string) (string, error) {
+func (disableS3) UploadItem(ctx context.Context, rs io.ReadSeeker, originalName string, fileDir string, contentType string) (string, error) {
 	return "暂未支持", nil
 }

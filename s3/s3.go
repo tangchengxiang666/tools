@@ -160,5 +160,5 @@ type Interface interface {
 
 	FormData(ctx context.Context, name string, size int64, contentType string, duration time.Duration) (*FormData, error)
 
-	UploadItem(ctx context.Context, rs io.ReadSeeker, originalName string, fileSize int64, contentType string) (string, error)
+	UploadItem(ctx context.Context, rs io.ReadSeeker, originalName string, fileDir string, contentType string) (string, error)
 }

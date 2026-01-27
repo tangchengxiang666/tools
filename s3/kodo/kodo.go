@@ -365,7 +365,7 @@ func (k *Kodo) FormData(ctx context.Context, name string, size int64, contentTyp
 	return fd, nil
 }
 
-func (k *Kodo) UploadItem(ctx context.Context, rs io.ReadSeeker, originalName string, fileSize int64, contentType string) (string, error) {
+func (k *Kodo) UploadItem(ctx context.Context, rs io.ReadSeeker, originalName string, fileDir string, contentType string) (string, error) {
 	return "暂未支持", nil
 }
 func withDisableHTTPPresignerHeaderV4(opt *s3.AccessURLOption) func(options *awss3.PresignOptions) {

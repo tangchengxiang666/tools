@@ -302,7 +302,7 @@ func (a *Aws) FormData(ctx context.Context, name string, size int64, contentType
 	return nil, errors.New("aws does not currently support form data file uploads")
 }
 
-func (a *Aws) UploadItem(ctx context.Context, rs io.ReadSeeker, originalName string, fileSize int64, contentType string) (string, error) {
+func (a *Aws) UploadItem(ctx context.Context, rs io.ReadSeeker, originalName string, fileDir string, contentType string) (string, error) {
 	return "暂未支持", nil
 }
 
